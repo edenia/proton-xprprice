@@ -1,0 +1,82 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "usdtoxpr",
+            "base": "",
+            "fields": [
+                {
+                    "name": "usd",
+                    "type": "float64"
+                }
+            ]
+        },
+        {
+            "name": "usdtoxprlog",
+            "base": "",
+            "fields": [
+                {
+                    "name": "rate",
+                    "type": "float64"
+                },
+                {
+                    "name": "xpr",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "xprtousd",
+            "base": "",
+            "fields": [
+                {
+                    "name": "xpr",
+                    "type": "float64"
+                }
+            ]
+        },
+        {
+            "name": "xprtousdlog",
+            "base": "",
+            "fields": [
+                {
+                    "name": "rate",
+                    "type": "float64"
+                },
+                {
+                    "name": "usd",
+                    "type": "float64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "usdtoxpr",
+            "type": "usdtoxpr",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "usdtoxprlog",
+            "type": "usdtoxprlog",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "xprtousd",
+            "type": "xprtousd",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "xprtousdlog",
+            "type": "xprtousdlog",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}
