@@ -5,8 +5,9 @@
 # XPR/USD Price Oracle Smart Contract
 **An on-chain option to get the exchange rate of XPR/USD.**
 
-
 The **xprprice** smart contract lets you know the approximate USD value of your XPR tokens.
+
+You can test the smart contract on the Proton Testnet [**xprprice**](https://proton-test.bloks.io/account/xprprice?loadContract=true&tab=Actions&account=xprprice&scope=xprprice&limit=100) account.
 
 ## User Story
 
